@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   sync:
-    if: github.repository == 'mitsuhiko/rye'
+    #if: github.repository == 'mitsuhiko/rye'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
